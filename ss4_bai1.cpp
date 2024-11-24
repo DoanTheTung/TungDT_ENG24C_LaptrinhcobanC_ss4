@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
 	//khai bao so nguyen can nhap
 	int soNguyen;
@@ -12,10 +11,6 @@ int main(){
     } else if (soNguyen < 0) {
         printf("so %d là so nguyen am.\n", soNguyen);
     } else {
-        printf("so vua nhap la so 0 (không âm, không dýõng).\n");
+        printf("so vua nhap la so 0 (không am, không duong).\n");
     }
-
     return 0;
-	} 
-	 
-
